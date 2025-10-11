@@ -1,9 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from scalar_fastapi import get_scalar_api_reference
+from scalar_fastapi.scalar_fastapi import get_scalar_api_reference
 
 from app.core.settings import settings
-from app.router.example_router import example_router
+from app.services.resume.router import resume_router
+from app.services.matching.router import matching_router
 
 settings.logger.setup_logger()
 
@@ -22,7 +23,10 @@ app.add_middleware(
     allow_headers=settings.app_settings.ALLOW_HEADERS,
 )
 
-app.include_router(example_router)
+
+app.include_router(resume_router)
+app.include_router(matching_router)
+
 
 if settings.app_settings.DEBUG:
     from fastapi.staticfiles import StaticFiles

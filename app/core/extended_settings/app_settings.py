@@ -2,9 +2,9 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class AppSettings(BaseSettings):
-    APP_NAME: str = "FastAPI Template"
+    APP_NAME: str = "Applicant Buddy API"
     VERSION: str = "0.1.0"
-    DESCRIPTION: str = "FastAPI Template API"
+    DESCRIPTION: str = "API for Applicant Buddy"
 
     DEBUG: bool = False
 

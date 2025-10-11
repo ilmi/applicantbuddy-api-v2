@@ -1,0 +1,16 @@
+2025-10-10 22:05:48 | INFO | app.services.matching.methods:find_suitable_jobs:20 | Searching jobs for category: software engineer
+2025-10-10 22:05:48 | INFO | app.services.matching.methods:find_suitable_jobs:29 | Found 0 matching jobs
+2025-10-10 22:05:53 | INFO | app.services.matching.methods:find_suitable_jobs:20 | Searching jobs for category: software engineer
+2025-10-10 22:05:53 | INFO | app.services.matching.methods:find_suitable_jobs:29 | Found 0 matching jobs
+2025-10-10 22:05:54 | INFO | app.services.matching.methods:find_suitable_jobs:20 | Searching jobs for category: software engineer
+2025-10-10 22:05:54 | INFO | app.services.matching.methods:find_suitable_jobs:29 | Found 0 matching jobs
+2025-10-10 22:08:45 | INFO | app.services.matching.methods:find_suitable_jobs:20 | Searching jobs for category: software engineer
+2025-10-10 22:08:45 | INFO | app.services.matching.methods:find_suitable_jobs:29 | Found 14 matching jobs
+2025-10-10 22:11:31 | INFO | app.services.matching.methods:find_suitable_jobs:20 | Searching jobs for category: software engineer
+2025-10-10 22:11:31 | INFO | app.services.matching.methods:find_suitable_jobs:33 | Found 14 matching jobs
+2025-10-10 22:12:01 | INFO | app.services.matching.methods:find_suitable_jobs:20 | Searching jobs for category: software engineer
+2025-10-10 22:12:01 | INFO | app.services.matching.methods:find_suitable_jobs:33 | Found 14 matching jobs
+2025-10-10 22:12:43 | INFO | app.services.matching.methods:find_suitable_jobs:20 | Searching jobs for category: software engineer
+2025-10-10 22:12:43 | INFO | app.services.matching.methods:find_suitable_jobs:33 | Found 14 matching jobs
+2025-10-11 08:28:00 | WARNING | app.services.matching.methods:find_suitable_jobs:16 | No resume found or resume has no category
+2025-10-11 08:28:24 | WARNING | app.services.matching.methods:find_suitable_jobs:16 | No resume found or resume has no category
