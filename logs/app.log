@@ -79,3 +79,10 @@
 2025-10-11 14:33:24 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
 2025-10-11 14:38:46 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
 2025-10-11 14:38:46 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 17:35:23 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 17:35:23 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 17:35:36 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea32f2f03a8a568f78c343 is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 17:37:45 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: system analyst
+2025-10-11 17:37:45 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 0 matching jobs
+2025-10-11 17:37:49 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: system analyst
+2025-10-11 17:37:49 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 0 matching jobs
