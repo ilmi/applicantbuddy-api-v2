@@ -14,3 +14,68 @@
 2025-10-10 22:12:43 | INFO | app.services.matching.methods:find_suitable_jobs:33 | Found 14 matching jobs
 2025-10-11 08:28:00 | WARNING | app.services.matching.methods:find_suitable_jobs:16 | No resume found or resume has no category
 2025-10-11 08:28:24 | WARNING | app.services.matching.methods:find_suitable_jobs:16 | No resume found or resume has no category
+2025-10-11 10:33:49 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 10:33:49 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 10:39:42 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68e9d17ef03a8aadd24bbe96 is not yet processed (status: ResumeStatus.PENDING). Please wait for processing to complete.
+2025-10-11 10:41:28 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 10:41:28 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 10:43:04 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 10:43:04 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 10:53:12 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 10:53:12 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 11:09:16 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68e9d86cf03a8a3f037f8ddb is not yet processed (status: ResumeStatus.PENDING). Please wait for processing to complete.
+2025-10-11 11:10:22 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 11:10:22 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 11:11:33 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 11:11:33 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 11:13:10 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 11:13:10 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 11:14:19 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68e9d99bf03a8a3f037f8ddc is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 11:16:15 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68e9da0ff03a8a3f037f8ddd is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 11:18:24 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 11:18:24 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 11:22:20 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 11:22:20 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 11:23:07 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68e9dbabf03a8a3f037f8dde is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 11:24:14 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 11:24:14 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 11:25:27 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 11:25:27 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 11:26:32 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 11:26:32 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 11:31:39 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 11:31:39 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 11:36:16 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 11:36:16 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 11:36:52 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68e9dee4f03a8a3f037f8ddf is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 11:37:43 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68e9df17f03a8a3f037f8de0 is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 11:39:18 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68e9df76f03a8a3f037f8de1 is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 11:40:58 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 11:40:58 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 13:59:50 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 13:59:50 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 14:00:08 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea0077f03a8a3fffb255a3 is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 14:01:17 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: other
+2025-10-11 14:01:17 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 0 matching jobs
+2025-10-11 14:02:48 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: other
+2025-10-11 14:02:48 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 0 matching jobs
+2025-10-11 14:03:09 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: other
+2025-10-11 14:03:09 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 0 matching jobs
+2025-10-11 14:08:47 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: other
+2025-10-11 14:08:47 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 0 matching jobs
+2025-10-11 14:09:06 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea0292f03a8a63bc458648 is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 14:10:11 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 14:10:11 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 14:12:33 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 14:12:33 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 14:14:34 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 14:14:34 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 14:23:19 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 14:23:19 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 14:28:45 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea0727f03a8a63bc458649 is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 14:32:09 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 14:32:09 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 14:33:24 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 14:33:24 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs
+2025-10-11 14:38:46 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: software engineer
+2025-10-11 14:38:46 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 14 matching jobs

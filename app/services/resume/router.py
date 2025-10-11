@@ -76,9 +76,11 @@ async def upload_resume(
         f.write(contents)
 
     from app.services.resume.task import process_resume
+
     process_resume.delay(resume.id)  # type: ignore
     return FileUploadResponse(
         message="Resume uploaded successfully",
         file_name=new_filename,
         file_path=file_path,
+        resume_id=resume.id,
     )

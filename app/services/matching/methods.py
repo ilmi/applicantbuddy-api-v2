@@ -4,19 +4,27 @@ from loguru import logger
 from sqlmodel import Session, desc, select
 
 from app.database.engine import engine
-from app.database.models import JobVacancies, Resume
+from app.database.models import JobVacancies, Resume, ResumeStatus
 
 
-def find_suitable_jobs() -> List[JobVacancies]:
+def find_suitable_jobs(resume_id: str) -> List[JobVacancies]:
     with Session(engine) as session:
-        latest_resume_stmt = select(Resume).order_by(desc(Resume.updated_at)).limit(1)
-        latest_resume = session.exec(latest_resume_stmt).first()
+        resume_stmt = select(Resume).where(Resume.id == resume_id)
+        resume = session.exec(resume_stmt).first()
 
-        if not latest_resume or not latest_resume.category:
-            logger.warning("No resume found or resume has no category")
+        if not resume:
+            logger.warning(f"No resume found with id: {resume_id}")
+            return []
+        
+        if resume.status != ResumeStatus.COMPLETED:
+            logger.warning(f"Resume {resume_id} is not yet processed (status: {resume.status}). Please wait for processing to complete.")
             return []
 
-        category = latest_resume.category.replace("_", " ")
+        if not resume.category:
+            logger.warning(f"Resume {resume_id} has no category")
+            return []
+
+        category = resume.category.replace("_", " ")
         logger.info(f"Searching jobs for category: {category}")
 
         if not category:

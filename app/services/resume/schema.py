@@ -21,6 +21,7 @@ class FileUploadResponse(BaseModel):
     message: str
     file_name: str
     file_path: str
+    resume_id: str
 
 
 class QueryResumeRequest(BaseModel):

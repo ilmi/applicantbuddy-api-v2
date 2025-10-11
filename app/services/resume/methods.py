@@ -68,7 +68,28 @@ def extract_resume(raw_text: str):
         - product_manager
         - marketing_manager
         - sales_manager
-        - other
+        - marketing_manager
+        - data_analyst
+        - human_resources
+        - system_analyst
+        - product_manager
+        - sales_executive
+        - recruitment_specialist
+        - talent_acquisition
+        - production_supervisor
+        - maintenance_engineer
+        - quality_assurance
+        - quality_control
+        - process_engineer
+        - apoteker
+        - designer
+        - graphic_designer
+        - instructional_designer
+        - ux_designer
+        - content_creator
+        - video_editor
+        - compliance_officer
+        - legal_officer,
     """
     response = openai_client.chat.completions.parse(
         model="gpt-4o",
