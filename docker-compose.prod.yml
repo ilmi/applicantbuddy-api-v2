@@ -11,6 +11,8 @@ services:
         condition: service_started
     env_file:
       - .env
+    volumes:
+      - ./public:/app/public
 
   postgres:
     image: postgres:15
@@ -49,6 +51,18 @@ services:
       - "6379:6379"
     volumes:
       - redis_data:/data
+
+  worker:
+    build: .
+    container_name: worker
+    depends_on:
+      redis:
+        condition: service_started
+    env_file:
+      - .env
+    volumes:
+      - ./public:/app/public
+    command: uv run celery -A app.celery worker --pool=threads -c 2
 
 volumes:
   postgres_data:

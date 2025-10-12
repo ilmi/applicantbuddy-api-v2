@@ -8,7 +8,9 @@ def add_resume_to_vector_db(resume_id: str, category: str, resume_text: str, **k
     from app.core.settings import settings
 
     embedding_function = OpenAIEmbeddingFunction(
-        api_key=settings.llm_settings.OPENAI_API_KEY, model_name="text-embedding-3-small"
+        api_key=settings.llm_settings.OPENAI_API_KEY,
+        model_name="text-embedding-3-small",
+        api_base="https://api.openai.com/v1",
     )
     chroma_client = chromadb.PersistentClient(path="./chroma_db")
 

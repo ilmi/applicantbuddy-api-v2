@@ -3,9 +3,11 @@ from chromadb.utils.embedding_functions import OpenAIEmbeddingFunction
 
 from app.core.settings import settings
 
+# Use standard OpenAI endpoint for embeddings since OpenRouter doesn't support it
 embedding_function = OpenAIEmbeddingFunction(
     api_key=settings.llm_settings.OPENAI_API_KEY,
     model_name="text-embedding-3-small",
+    api_base="https://api.openai.com/v1",
 )
 
 chroma_client = chromadb.PersistentClient(path="./chroma_db")

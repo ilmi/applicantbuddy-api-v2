@@ -3,8 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from scalar_fastapi.scalar_fastapi import get_scalar_api_reference
 
 from app.core.settings import settings
-from app.services.resume.router import resume_router
 from app.services.matching.router import matching_router
+from app.services.resume.router import resume_router
 
 settings.logger.setup_logger()
 
