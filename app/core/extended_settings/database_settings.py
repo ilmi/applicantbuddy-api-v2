@@ -2,13 +2,13 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class DatabaseSettings(BaseSettings):
-    DB_HOST: str = "localhost"
+    DB_HOST: str = "db"
     DB_PORT: int = 5432
     DB_USER: str = "postgres"
     DB_PASSWORD: str = "postgres"
     DB_NAME: str = "postgres"
 
-    REDIS_HOST: str = "localhost"
+    REDIS_HOST: str = "redis"
     REDIS_PORT: int = 6379
     REDIS_DB: int = 0
 
