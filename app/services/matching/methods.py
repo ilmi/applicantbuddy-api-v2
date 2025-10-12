@@ -1,7 +1,7 @@
 from typing import List
 
 from loguru import logger
-from sqlmodel import Session, desc, select
+from sqlmodel import Session, desc, or_, select
 
 from app.database.engine import engine
 from app.database.models import JobVacancies, Resume, ResumeStatus
@@ -15,9 +15,11 @@ def find_suitable_jobs(resume_id: str) -> List[JobVacancies]:
         if not resume:
             logger.warning(f"No resume found with id: {resume_id}")
             return []
-        
+
         if resume.status != ResumeStatus.COMPLETED:
-            logger.warning(f"Resume {resume_id} is not yet processed (status: {resume.status}). Please wait for processing to complete.")
+            logger.warning(
+                f"Resume {resume_id} is not yet processed (status: {resume.status}). Please wait for processing to complete."
+            )
             return []
 
         if not resume.category:
@@ -31,9 +33,21 @@ def find_suitable_jobs(resume_id: str) -> List[JobVacancies]:
             logger.warning("Your CV is not categorized. Please update with better resume format.")
             return []
 
+        category_words = category.split()
+        conditions = []
+
+        for word in category_words:
+            if word.strip():
+                conditions.append(JobVacancies.title.ilike(f"%{word.strip()}%"))
+
+        if not conditions:
+            conditions.append(JobVacancies.title.ilike(f"%{category}%"))
+
+        combined_condition = or_(*conditions)
+
         job_stmt = (
             select(JobVacancies)
-            .where(JobVacancies.title.ilike(f"%{category}%"))  # type: ignore
+            .where(combined_condition)
             .order_by(desc(JobVacancies.created_at))
         )
         matching_jobs = session.exec(job_stmt).all()

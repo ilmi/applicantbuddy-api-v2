@@ -13,5 +13,5 @@
     "source.fixAll.ruff": "always",
     "source.organizeImports.ruff": "always"
   },
-  "basedpyright.analysis.typeCheckingMode": "basic"
+  "basedpyright.analysis.typeCheckingMode": "off"
 }

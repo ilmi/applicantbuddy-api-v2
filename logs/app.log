@@ -86,3 +86,27 @@
 2025-10-11 17:37:45 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 0 matching jobs
 2025-10-11 17:37:49 | INFO | app.services.matching.methods:find_suitable_jobs:28 | Searching jobs for category: system analyst
 2025-10-11 17:37:49 | INFO | app.services.matching.methods:find_suitable_jobs:41 | Found 0 matching jobs
+2025-10-11 21:36:23 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea6b61f03a8a489a1c042f is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 21:37:37 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea6b61f03a8a489a1c042f is not yet processed (status: ResumeStatus.PENDING). Please wait for processing to complete.
+2025-10-11 21:38:03 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea6b61f03a8a489a1c042f is not yet processed (status: ResumeStatus.PENDING). Please wait for processing to complete.
+2025-10-11 21:38:04 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea6b61f03a8a489a1c042f is not yet processed (status: ResumeStatus.PENDING). Please wait for processing to complete.
+2025-10-11 21:38:05 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea6b61f03a8a489a1c042f is not yet processed (status: ResumeStatus.PENDING). Please wait for processing to complete.
+2025-10-11 21:38:05 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea6b61f03a8a489a1c042f is not yet processed (status: ResumeStatus.PENDING). Please wait for processing to complete.
+2025-10-11 21:38:05 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea6b61f03a8a489a1c042f is not yet processed (status: ResumeStatus.PENDING). Please wait for processing to complete.
+2025-10-11 21:38:36 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea6b61f03a8a489a1c042f is not yet processed (status: ResumeStatus.PENDING). Please wait for processing to complete.
+2025-10-11 21:39:04 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea6c03f03a8a489a1c0430 is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 21:54:55 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea6c03f03a8a489a1c0430 is not yet processed (status: ResumeStatus.PENDING). Please wait for processing to complete.
+2025-10-11 21:55:24 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea6fd8f03a8a489a1c0431 is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 21:59:58 | INFO | app.services.matching.methods:find_suitable_jobs:30 | Searching jobs for category: system analyst
+2025-10-11 21:59:58 | INFO | app.services.matching.methods:find_suitable_jobs:55 | Found 5 matching jobs
+2025-10-11 22:04:39 | INFO | app.services.matching.methods:find_suitable_jobs:30 | Searching jobs for category: system analyst
+2025-10-11 22:04:39 | INFO | app.services.matching.methods:find_suitable_jobs:55 | Found 5 matching jobs
+2025-10-11 22:05:36 | INFO | app.services.matching.methods:find_suitable_jobs:30 | Searching jobs for category: system analyst
+2025-10-11 22:05:36 | INFO | app.services.matching.methods:find_suitable_jobs:55 | Found 5 matching jobs
+2025-10-11 22:09:27 | INFO | app.services.matching.methods:find_suitable_jobs:30 | Searching jobs for category: system analyst
+2025-10-11 22:09:27 | INFO | app.services.matching.methods:find_suitable_jobs:55 | Found 5 matching jobs
+2025-10-11 22:14:00 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea7432f03a8a489a1c0432 is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 22:14:02 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea7432f03a8a489a1c0432 is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 22:14:05 | WARNING | app.services.matching.methods:find_suitable_jobs:20 | Resume 68ea7432f03a8a489a1c0432 is not yet processed (status: ResumeStatus.PROCESSING). Please wait for processing to complete.
+2025-10-11 22:14:11 | INFO | app.services.matching.methods:find_suitable_jobs:30 | Searching jobs for category: system analyst
+2025-10-11 22:14:11 | INFO | app.services.matching.methods:find_suitable_jobs:55 | Found 5 matching jobs
